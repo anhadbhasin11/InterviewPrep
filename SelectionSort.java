@@ -5,6 +5,8 @@
  * Space Complexity : O(1)
  * In Place :  Yes
  * 
+ * In iteration i, find index of smallest remaining entry and Swap a[i] and a[min].
+ * 
  * Anhad S Bhasin
  */
 public class SelectionSort {
