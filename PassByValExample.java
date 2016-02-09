@@ -59,7 +59,7 @@ public class PassByValExample {
 	}
 	public static void changeArray(int[] array)
 	{
-		array = new int[10];
+		array[0] = 10000;
 	}
 	public static void changeObject(Car car)
 	{
