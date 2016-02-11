@@ -6,7 +6,7 @@ public class QuickSort {
 	
 	public static void sort(int[] array)
 	{
-		Collections.shuffle(Arrays.asList(array));
+		Collections.shuffle(Arrays.asList(array)); //Shuffle in JAVA
 		sort(array, 0, array.length-1);
 	}
 	public static void sort(int[] array, int lo, int hi)
