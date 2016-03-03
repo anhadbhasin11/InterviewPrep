@@ -39,7 +39,7 @@ public class SelectionSort {
 	
 	public static void main(String args[])
 	{
-		int[] array = {0,9,8,5,4,7,1,2,50,100,1,6};
+		int[] array = {0,900, 9,8,5,4,7,1,2,50,100,1,6};
 		sort(array);
 		for(int i = 0; i < array.length; ++i)
 			System.out.println(array[i]);
