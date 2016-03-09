@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 /*
  * Selection Sort is one of the easiest way to sort.
@@ -19,8 +20,11 @@ public class SelectionSort {
 				swap(array,i,minimum(array,i));
 		}
 	}
+	
 	private static int minimum(int[] array, int i)
 	{
+		
+		
 		int min = i;
 		for(int j = i; j < array.length; ++j)
 		{
