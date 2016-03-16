@@ -1,3 +1,5 @@
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Stack;
 
 class Node{
@@ -137,9 +139,6 @@ public class BinarySearchTree {
 		
 		System.out.println(tree.size(tree.root));
 		System.out.println(tree.size(tree.root.right.left));
-		
-		
-		System.out.println("Sum = " + tree.sum(tree.root));
-		
+				
 	}
 }
