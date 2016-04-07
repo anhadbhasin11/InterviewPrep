@@ -1,3 +1,5 @@
+import java.util.Queue;
+import java.util.Stack;
 
 public class StackArray {
 
@@ -52,5 +54,8 @@ public class StackArray {
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
+		int it = 10;
+		System.out.println(it);
+		
 	}
 }

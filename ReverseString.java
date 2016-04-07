@@ -15,6 +15,9 @@ public class ReverseString {
 	public static void main(String args[])
 	{
 		
-		System.out.println(reverse("Hola Amigo"));
+		//System.out.println(reverse("Hola Amigo"));
+		
+		int x = 'b';
+		System.out.println(1 + (x - 97));
 	}
 }
